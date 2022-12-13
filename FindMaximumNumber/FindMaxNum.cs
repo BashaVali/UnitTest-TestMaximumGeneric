@@ -1,7 +1,6 @@
 ﻿using System;
 namespace FindMaximumNumber
-{    
-    //Uc1-Find Max Integer
+{
     public class FindMaximumNum
     {
         public int FindMaxInteger(int a, int b, int c)
@@ -17,7 +16,6 @@ namespace FindMaximumNumber
             else
                 return c;
         }
-        //Uc2-Find Max Float
         public float FindMaxFloat(float a, float b, float c)
         {
             if (a > b && a > c)
@@ -31,7 +29,6 @@ namespace FindMaximumNumber
             else
                 return c;
         }
-        //Uc3-Find Max String
         public string FindMaxString(string a, string b, string c)
         {
             if (a.CompareTo(b) > 0 && a.CompareTo(c) > 0)
