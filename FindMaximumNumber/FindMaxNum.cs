@@ -17,7 +17,7 @@ namespace FindMaximumNumber
             else
                 return c;
         }
-        //Uc1-Find Max Float
+        //Uc2-Find Max Float
         public float FindMaxFloat(float a, float b, float c)
         {
             if (a > b && a > c)
@@ -31,7 +31,7 @@ namespace FindMaximumNumber
             else
                 return c;
         }
-        //Uc1-Find Max String
+        //Uc3-Find Max String
         public string FindMaxString(string a, string b, string c)
         {
             if (a.CompareTo(b) > 0 && a.CompareTo(c) > 0)
